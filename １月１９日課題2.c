@@ -6,6 +6,7 @@ int main(void)
 	x = 5;
 	y = 3;
 	swap(&x, &y);
+	printf("x=%d\ty=%d", x, y);
 	return 0;
 }
 void swap(int* a, int* b)
